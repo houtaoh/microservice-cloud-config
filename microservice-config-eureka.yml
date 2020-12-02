@@ -12,7 +12,7 @@ spring:
 
 eureka:
     instance:
-        hostname: 192.168.254.105
+        hostname: 192.168.254.1
     client:
         registerWithEureka: false
         fetchRegistry: false
@@ -29,7 +29,7 @@ spring:
         name: microservice-config-eureka
 eureka:
     instance:
-        hostname: 192.168.254.105
+        hostname: 192.168.254.1
     client:
     registerWithEureka: false
     fetchRegistry: false
